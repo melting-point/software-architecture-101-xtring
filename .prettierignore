@@ -1,0 +1,27 @@
+# Default
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+# Test Coverage
+coverage/
+
+# Next Build
+.next/
+
+# Package-lock
+package-lock.json
+
+# JSON - 일부 JSON 파일은 포메팅이 필요하돠
+*.json
+
+# SVG
+*.svg ?
+
+# CI 환경에서 생성되는 파일
+.nx-test/
+lhci_reports/
+
+# StoryBook
+.storybook/
